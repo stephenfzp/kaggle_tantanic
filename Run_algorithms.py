@@ -27,5 +27,3 @@ print '神经网络：', metrics.accuracy_score(yPre4, true_result)
 index_people = pd.DataFrame(test_index)
 final_data = pd.merge(index_people, yPre4, left_index=True, right_index=True, how='outer')
 #final_data.to_csv('result.csv', index=False)  #生成结果文件
-
-vfbfbf
